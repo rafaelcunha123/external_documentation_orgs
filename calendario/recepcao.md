@@ -4,7 +4,7 @@ Para iniciar uma recepção, abra a tela de detalhes de um agendamento e clique 
 Depois disso, a recepção de pacientes tem 4 etapas:
 1. [Cadastro](#cadastro)
 2. [Foto](#foto)
-3. [Cobrança](#cobrança)
+3. [Cobrança](#cobranca)
 4. [Confirmação](#confirmacao)
 5. [Impressão impressão](#impressao)
 
@@ -133,6 +133,30 @@ Se o atendimento realizado for de um convênio que emite guias no padrão TISS, 
 <div style="clear: left; margin-bottom: 20px"></div>
 
 
-> **Importante**
->  * Após confirmação dos dados de cobrança, o eDoc tentará se comunicar com o convênio para validar elegibilidade e autorização. Caso não obtenha uma resposta ou obtenha uma negativa, abriremos uma mensagem perguntando ao usuário se deseja autorizar manualmente o atendimento
->  * Ao clicar em autorizar, é gravado que o atendimento foi autorizado manualmente pelo usuário. Esse dado é utilizado para análise posterior.
+> **Descrição dos campos da guia**
+>  * **Operadora**: Nome do convênio de saúde utilizado pelo paciente. Aparecerão apenas os convênios registrados no perfil do paciente para seleção.
+>  * **Procedimento**: Procedimento para o qual está sendo realizada a recepção. Aparecerão apenas os procedimentos cadastrados para o profissional serão exibidos para seleção.
+>  * **Senha de autorização [opcional]**: Lista com senhas de autorização já cadastradas em outros atendimentos do usuário. Caso não haja nenhuma senha cadastrada, clique no botão "Nova Senha"
+	> * **Senha**: é o código ofericido pelo convênio como senha se autorização
+	> * **Número de sessões autorizadas**: quantidade de sessões autorizadas pelo convênio. Para fisioterapia e psicologia, em geral são autorizados 10 sessões.
+	> * **Data da autorização**: Data em que a autorização foi emitida
+	> * **Data de validade da senha**: data em que a senha de autorização perde a validade. Geralmente 1 mês após a data de emissão.
+>  * **Retorno [opcional]**: assinalar manualmente se um atendimento é retorno e **não deve ser cobrado**. É necessário utilizar essa marcação apenas em casos de exceção. Em regime normal, o eDoc identifica automaticamente se um atendimento está dentro do prazo de retorno ou não.
+>  * **Recém Nascido [opcional]**: assinala se um paciente é recém nascido.
+>  * **Quantidade Executada [opcional]**: número de execuções do procedimento na recepção que está sendo feita. Por exemplo, se a recepção é para uma sessão de psicologia, a quantidade será 1. Se forem ser executadas e cobradas 5 aplicações de escleroterapia de veias, a quantidade será 5. Se for deixado em branco, assinalaremos o valor automaticamente como 1.
+>  * **Número da Guia Atribuido Pela Operadora [opcional]**: em alguns casos o processo com o convênio exige a inserção de um número de guia atribuido por eles. Nesses casos, esse campo aceita o número da guia.
+>  * **Dados do pedido**: sessão com dados necessários para o pedido médico.
+	> * **Data**: data em que o pedido médico foi emitido
+>  * **Contratado Solicitante**: sessão para cadastro da empresa que solicitou o procedimento
+	> * **Contratado solicitante é o mesmo do executante**: preenche automaticamente os dados da unidade em que a recepção está sendo feita como os dados do contratado solicitante
+	> * **Nome do solicitante**: nome do médico, dá clínica ou do hospital que solicitou o procedimento
+	> * **Tipo de Identificador**: CPF, CNPJ ou Código do Prestador.
+	> * **Identificador na Operadora**: Número do CPF, CNPJ ou do código do prestador
+>  * **Profissional Solicitante**: sessão para cadastro dos dados do Profissional de Saúde que solicitou o procedimento
+	> * **Profisional solicitante é o mesmo do executante**: preenche automaticamente os dados do profissional que realizará o procedimento como os dados do profissional que solicitou o procedimento
+	> * **Nome do solicitante**: nome do profissional que solicitou o procedimento
+	> * **CBOS**: Especialidade do profissional. Aparece apenas a lista de especialidades reguladas pela ANS.
+	> * **CBOS**: Especialidade do profissional. Aparece apenas a lista de especialidades reguladas pela ANS.
+	> * **Conselho Profissional**: Sigla do conselho ao qual o profissional faz parte (Ex: CRM, CRO, CREFITO, etc). Aparecem apenas siglas de conselhos registrados na ANS
+	> * **UF**: Unidade Federativa do Conselho
+	> * **Numero de registro**: Número de regitro do profissional no conseho. Aceita apenas números.

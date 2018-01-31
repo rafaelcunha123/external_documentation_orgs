@@ -14,7 +14,8 @@
 *	[Visualizar agenda](calendario/visualizar_agenda.md)
 *	[Local de atendimento](calendario/selecionar_local.md)
 *	[Recepção](calendario/recepcao.md)
-*	[Call Center](agendamento/call_center.md)
+
+<!-- *	[Call Center](agendamento/call_center.md)
 		* [Buscar um paciente](agendamento/call_center/buscar_paciente.md)
 		* [Cadastrar um paciente](agendamento/call_center/cadastrar_paciente.md)
 		* [Cadastrar um convênio](agendamento/call_center/cadastrar_convenio.md)
@@ -25,4 +26,4 @@
 		* [Ligações Ativas](agendamento/call_center/ligacoes_ativas.md)		
 *	[Encaixes](agendamento/encaixes.md)
 * [Mensagens de erro](agendamento/erros.md)
-
+ -->

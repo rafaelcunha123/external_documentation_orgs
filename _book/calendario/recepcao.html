@@ -49,8 +49,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../agendamento/call_center.md" />
-    
     
     <link rel="prev" href="selecionar_local.html" />
     
@@ -168,155 +166,6 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6" data-path="../agendamento/call_center.md">
-            
-                <span>
-            
-                    
-                    Call Center
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="2.6.1" data-path="../agendamento/call_center/buscar_paciente.md">
-            
-                <span>
-            
-                    
-                    Buscar um paciente
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.2" data-path="../agendamento/call_center/cadastrar_paciente.md">
-            
-                <span>
-            
-                    
-                    Cadastrar um paciente
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.3" data-path="../agendamento/call_center/cadastrar_convenio.md">
-            
-                <span>
-            
-                    
-                    Cadastrar um convênio
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.4" data-path="../agendamento/call_center/editar_paciente.md">
-            
-                <span>
-            
-                    
-                    Editar paciente e convênio
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.5" data-path="../agendamento/call_center/criar_agendamento.md">
-            
-                <span>
-            
-                    
-                    Criar agendamento
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.6" data-path="../agendamento/call_center/buscar_agendamento.md">
-            
-                <span>
-            
-                    
-                    Buscar agendamento
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.7" data-path="../agendamento/call_center/editar_agendamento.md">
-            
-                <span>
-            
-                    
-                    Editar e deletar agendamento
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.6.8" data-path="../agendamento/call_center/ligacoes_ativas.md">
-            
-                <span>
-            
-                    
-                    Ligações Ativas
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="2.7" data-path="../agendamento/encaixes.md">
-            
-                <span>
-            
-                    
-                    Encaixes
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.8" data-path="../agendamento/erros.md">
-            
-                <span>
-            
-                    
-                    Mensagens de erro
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
 
@@ -368,7 +217,7 @@ Depois disso, a recep&#xE7;&#xE3;o de pacientes tem 4 etapas:</p>
 <ol>
 <li><a href="#cadastro">Cadastro</a></li>
 <li><a href="#foto">Foto</a></li>
-<li><a href="#cobran&#xE7;a">Cobran&#xE7;a</a></li>
+<li><a href="#cobranca">Cobran&#xE7;a</a></li>
 <li><a href="#confirmacao">Confirma&#xE7;&#xE3;o</a></li>
 <li><a href="#impressao">Impress&#xE3;o impress&#xE3;o</a></li>
 </ol>
@@ -490,10 +339,42 @@ Al&#xE9;m da sele&#xE7;&#xE3;o do conv&#xEA;nio, procedimento e retorno, pode-se
 
 
 <blockquote>
-<p><strong>Importante</strong></p>
+<p><strong>Descri&#xE7;&#xE3;o dos campos da guia</strong></p>
 <ul>
-<li>Ap&#xF3;s confirma&#xE7;&#xE3;o dos dados de cobran&#xE7;a, o eDoc tentar&#xE1; se comunicar com o conv&#xEA;nio para validar elegibilidade e autoriza&#xE7;&#xE3;o. Caso n&#xE3;o obtenha uma resposta ou obtenha uma negativa, abriremos uma mensagem perguntando ao usu&#xE1;rio se deseja autorizar manualmente o atendimento</li>
-<li>Ao clicar em autorizar, &#xE9; gravado que o atendimento foi autorizado manualmente pelo usu&#xE1;rio. Esse dado &#xE9; utilizado para an&#xE1;lise posterior.</li>
+<li><strong>Operadora</strong>: Nome do conv&#xEA;nio de sa&#xFA;de utilizado pelo paciente. Aparecer&#xE3;o apenas os conv&#xEA;nios registrados no perfil do paciente para sele&#xE7;&#xE3;o.</li>
+<li><strong>Procedimento</strong>: Procedimento para o qual est&#xE1; sendo realizada a recep&#xE7;&#xE3;o. Aparecer&#xE3;o apenas os procedimentos cadastrados para o profissional ser&#xE3;o exibidos para sele&#xE7;&#xE3;o.</li>
+<li><strong>Senha de autoriza&#xE7;&#xE3;o [opcional]</strong>: Lista com senhas de autoriza&#xE7;&#xE3;o j&#xE1; cadastradas em outros atendimentos do usu&#xE1;rio. Caso n&#xE3;o haja nenhuma senha cadastrada, clique no bot&#xE3;o &quot;Nova Senha&quot;<ul>
+<li><strong>Senha</strong>: &#xE9; o c&#xF3;digo ofericido pelo conv&#xEA;nio como senha se autoriza&#xE7;&#xE3;o</li>
+<li><strong>N&#xFA;mero de sess&#xF5;es autorizadas</strong>: quantidade de sess&#xF5;es autorizadas pelo conv&#xEA;nio. Para fisioterapia e psicologia, em geral s&#xE3;o autorizados 10 sess&#xF5;es.</li>
+<li><strong>Data da autoriza&#xE7;&#xE3;o</strong>: Data em que a autoriza&#xE7;&#xE3;o foi emitida</li>
+<li><strong>Data de validade da senha</strong>: data em que a senha de autoriza&#xE7;&#xE3;o perde a validade. Geralmente 1 m&#xEA;s ap&#xF3;s a data de emiss&#xE3;o.</li>
+</ul>
+</li>
+<li><strong>Retorno [opcional]</strong>: assinalar manualmente se um atendimento &#xE9; retorno e <strong>n&#xE3;o deve ser cobrado</strong>. &#xC9; necess&#xE1;rio utilizar essa marca&#xE7;&#xE3;o apenas em casos de exce&#xE7;&#xE3;o. Em regime normal, o eDoc identifica automaticamente se um atendimento est&#xE1; dentro do prazo de retorno ou n&#xE3;o.</li>
+<li><strong>Rec&#xE9;m Nascido [opcional]</strong>: assinala se um paciente &#xE9; rec&#xE9;m nascido.</li>
+<li><strong>Quantidade Executada [opcional]</strong>: n&#xFA;mero de execu&#xE7;&#xF5;es do procedimento na recep&#xE7;&#xE3;o que est&#xE1; sendo feita. Por exemplo, se a recep&#xE7;&#xE3;o &#xE9; para uma sess&#xE3;o de psicologia, a quantidade ser&#xE1; 1. Se forem ser executadas e cobradas 5 aplica&#xE7;&#xF5;es de escleroterapia de veias, a quantidade ser&#xE1; 5. Se for deixado em branco, assinalaremos o valor automaticamente como 1.</li>
+<li><strong>N&#xFA;mero da Guia Atribuido Pela Operadora [opcional]</strong>: em alguns casos o processo com o conv&#xEA;nio exige a inser&#xE7;&#xE3;o de um n&#xFA;mero de guia atribuido por eles. Nesses casos, esse campo aceita o n&#xFA;mero da guia.</li>
+<li><strong>Dados do pedido</strong>: sess&#xE3;o com dados necess&#xE1;rios para o pedido m&#xE9;dico.<ul>
+<li><strong>Data</strong>: data em que o pedido m&#xE9;dico foi emitido</li>
+</ul>
+</li>
+<li><strong>Contratado Solicitante</strong>: sess&#xE3;o para cadastro da empresa que solicitou o procedimento<ul>
+<li><strong>Contratado solicitante &#xE9; o mesmo do executante</strong>: preenche automaticamente os dados da unidade em que a recep&#xE7;&#xE3;o est&#xE1; sendo feita como os dados do contratado solicitante</li>
+<li><strong>Nome do solicitante</strong>: nome do m&#xE9;dico, d&#xE1; cl&#xED;nica ou do hospital que solicitou o procedimento</li>
+<li><strong>Tipo de Identificador</strong>: CPF, CNPJ ou C&#xF3;digo do Prestador.</li>
+<li><strong>Identificador na Operadora</strong>: N&#xFA;mero do CPF, CNPJ ou do c&#xF3;digo do prestador</li>
+</ul>
+</li>
+<li><strong>Profissional Solicitante</strong>: sess&#xE3;o para cadastro dos dados do Profissional de Sa&#xFA;de que solicitou o procedimento<ul>
+<li><strong>Profisional solicitante &#xE9; o mesmo do executante</strong>: preenche automaticamente os dados do profissional que realizar&#xE1; o procedimento como os dados do profissional que solicitou o procedimento</li>
+<li><strong>Nome do solicitante</strong>: nome do profissional que solicitou o procedimento</li>
+<li><strong>CBOS</strong>: Especialidade do profissional. Aparece apenas a lista de especialidades reguladas pela ANS.</li>
+<li><strong>CBOS</strong>: Especialidade do profissional. Aparece apenas a lista de especialidades reguladas pela ANS.</li>
+<li><strong>Conselho Profissional</strong>: Sigla do conselho ao qual o profissional faz parte (Ex: CRM, CRO, CREFITO, etc). Aparecem apenas siglas de conselhos registrados na ANS</li>
+<li><strong>UF</strong>: Unidade Federativa do Conselho</li>
+<li><strong>Numero de registro</strong>: N&#xFA;mero de regitro do profissional no conseho. Aceita apenas n&#xFA;meros.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
 
@@ -523,14 +404,10 @@ Al&#xE9;m da sele&#xE7;&#xE3;o do conv&#xEA;nio, procedimento e retorno, pode-se
 
             
                 
-                <a href="selecionar_local.html" class="navigation navigation-prev " aria-label="Previous page: Local de atendimento">
+                <a href="selecionar_local.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Local de atendimento">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../agendamento/call_center.md" class="navigation navigation-next " aria-label="Next page: Call Center">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -539,7 +416,7 @@ Al&#xE9;m da sele&#xE7;&#xE3;o do conv&#xEA;nio, procedimento e retorno, pode-se
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Recepção","level":"2.5","depth":1,"next":{"title":"Call Center","level":"2.6","depth":1,"path":"agendamento/call_center.md","ref":"agendamento/call_center.md","articles":[{"title":"Buscar um paciente","level":"2.6.1","depth":2,"path":"agendamento/call_center/buscar_paciente.md","ref":"agendamento/call_center/buscar_paciente.md","articles":[]},{"title":"Cadastrar um paciente","level":"2.6.2","depth":2,"path":"agendamento/call_center/cadastrar_paciente.md","ref":"agendamento/call_center/cadastrar_paciente.md","articles":[]},{"title":"Cadastrar um convênio","level":"2.6.3","depth":2,"path":"agendamento/call_center/cadastrar_convenio.md","ref":"agendamento/call_center/cadastrar_convenio.md","articles":[]},{"title":"Editar paciente e convênio","level":"2.6.4","depth":2,"path":"agendamento/call_center/editar_paciente.md","ref":"agendamento/call_center/editar_paciente.md","articles":[]},{"title":"Criar agendamento","level":"2.6.5","depth":2,"path":"agendamento/call_center/criar_agendamento.md","ref":"agendamento/call_center/criar_agendamento.md","articles":[]},{"title":"Buscar agendamento","level":"2.6.6","depth":2,"path":"agendamento/call_center/buscar_agendamento.md","ref":"agendamento/call_center/buscar_agendamento.md","articles":[]},{"title":"Editar e deletar agendamento","level":"2.6.7","depth":2,"path":"agendamento/call_center/editar_agendamento.md","ref":"agendamento/call_center/editar_agendamento.md","articles":[]},{"title":"Ligações Ativas","level":"2.6.8","depth":2,"path":"agendamento/call_center/ligacoes_ativas.md","ref":"agendamento/call_center/ligacoes_ativas.md","articles":[]}]},"previous":{"title":"Local de atendimento","level":"2.4","depth":1,"path":"calendario/selecionar_local.md","ref":"calendario/selecionar_local.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"calendario/recepcao.md","mtime":"2018-01-31T00:49:22.111Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-30T18:33:01.930Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Recepção","level":"2.5","depth":1,"previous":{"title":"Local de atendimento","level":"2.4","depth":1,"path":"calendario/selecionar_local.md","ref":"calendario/selecionar_local.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"calendario/recepcao.md","mtime":"2018-01-31T15:21:28.301Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-31T14:41:52.581Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

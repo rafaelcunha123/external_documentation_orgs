@@ -1,6 +1,6 @@
 # <img src=../../img/logo.png height=25 style:"float:left"> Selecionar local de atendimento
 
-Caso a sua unidade utilize o serviço de emissão de senhas do eDoc, será necessário selecionar o local de atendimento antes de iniciar uma recepção ou atendimento.
+**Selecionar local de atendimento será necessário somente se o serviço de emissão e chamador de senhas for contratado**
 
 Se não houver o uso do sistema de senha, esses controles **NÂO** aparecerão e você pode ir para a próxima [seção](./recepcao.md).
 
