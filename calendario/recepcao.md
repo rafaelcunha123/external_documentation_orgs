@@ -5,8 +5,7 @@ Depois disso, a recepção de pacientes tem 4 etapas:
 1. [Cadastro](#cadastro)
 2. [Foto](#foto)
 3. [Cobrança](#cobranca)
-4. [Confirmação](#confirmacao)
-5. [Impressão impressão](#impressao)
+4. [Impressão de guias](#impressao)
 
 
 
@@ -160,3 +159,42 @@ Se o atendimento realizado for de um convênio que emite guias no padrão TISS, 
 	> * **Conselho Profissional**: Sigla do conselho ao qual o profissional faz parte (Ex: CRM, CRO, CREFITO, etc). Aparecem apenas siglas de conselhos registrados na ANS
 	> * **UF**: Unidade Federativa do Conselho
 	> * **Numero de registro**: Número de regitro do profissional no conseho. Aceita apenas números.
+
+
+##4. Impressão de guias {#impressao}
+Ao finalizar a recepção, o usuário será direcionado para a tela de calendário, e a guia para impressão abrirá automaticamente. Basta clicar em imprimir.
+
+
+<div class="left-float-framme framme70">
+	<img src="../../img/recepcao/impressao.gif">
+</div>
+
+<div class="right-float-framme framme28">
+	<ul>
+		<li>Finalize a recepção</li>
+		<li>Aguarde abertura automática da tela de impressão</li>
+		<li>Selecione a impressora de destino e imprima</li>
+	</ul>
+</div>
+
+<div style="clear: left; margin-bottom: 20px"></div>
+
+
+
+Caso necessite reimprimir uma guia após sair da tela de impressão, vá até a aba de detalhes de um agendamento, clique em editar guia e depois em imprimir
+
+
+<div class="left-float-framme framme70">
+	<img src="../../img/recepcao/reimpressao.gif">
+</div>
+
+<div class="right-float-framme framme28">
+	<ul>
+		<li>Abra a tela de detalhes do agendamento</li>
+		<li>Clique no botão de editar guia</li>
+		<li>Abra o botão de mais opções</li>
+		<li>Clique em imprimir</li>
+	</ul>
+</div>
+
+<div style="clear: left; margin-bottom: 20px"></div>
