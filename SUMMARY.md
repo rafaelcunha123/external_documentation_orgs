@@ -14,6 +14,19 @@
 *	[Visualizar agenda](calendario/visualizar_agenda.md)
 *	[Local de atendimento](calendario/selecionar_local.md)
 *	[Recepção](calendario/recepcao.md)
+*	[Sala de Espera](calendario/pipeline.md)
+
+---
+###Atendimento
+---
+*	[Introdução](atendimento/README.md)
+* [Cadastro de CID](atendimento/cid.md)
+* [Documentos Padrão](atendimento/documentos.md)
+* [Textos Padrão](atendimento/snipets.md)
+* [Impressão de documentos](atendimento/impressao.md)
+* [Histórico do paciente](atendimento/pipeline)
+* [Finalização e Reabertura de atendimento](./fim_atendimetno.md)
+
 
 <!-- *	[Call Center](agendamento/call_center.md)
 		* [Buscar um paciente](agendamento/call_center/buscar_paciente.md)
@@ -27,3 +40,11 @@
 *	[Encaixes](agendamento/encaixes.md)
 * [Mensagens de erro](agendamento/erros.md)
  -->
+
+
+
+
+
+
+
+
