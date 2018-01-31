@@ -1,0 +1,50 @@
+/*----------
+IMAGE
+------------*/
+
+.left-float-framme {
+    border: 1px solid #C2C2C2 !important; 
+    margin-right: 2%;
+    min-width: 250px; 
+}
+
+.framme50 {
+    width: 50%;
+}
+
+.framme70 {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 769px) {
+    .left-float-framme,
+    .right-float-framme {
+    	display: block;
+    	clear: left;
+    }
+   
+    .framme50 {
+        margin-left: 25%;
+    }
+
+    .framme70 {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .left-float-framme,
+    .right-float-framme {
+    	float: left;
+    }
+    
+    .framme28 {
+        width: 28%;
+    }
+
+    .framme48 {
+        width: 28%;
+    }
+}
+
