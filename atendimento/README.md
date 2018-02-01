@@ -11,5 +11,6 @@ A tela de atendimento conta com as seguinte funcionalidades
 2. [Documentos Padrão](documentos.md)
 3. [Textos Padrão](snipets.md)
 4. [Impressão de documentos](impressao.md)
-5. [Histórico do paciente](./historico)
-6. [Finalização e Reabertura de atendimento](./fim_atendimetno.md)
+5. [Histórico do paciente](historico.md)
+6. [Finalização e Reabertura de atendimento](reiniciar_sessao.md)
+7. [Sair sem finalizar atendimento](sair.md)

@@ -24,8 +24,9 @@
 * [Documentos Padrão](atendimento/documentos.md)
 * [Textos Padrão](atendimento/snipets.md)
 * [Impressão de documentos](atendimento/impressao.md)
-* [Histórico do paciente](atendimento/pipeline)
-* [Finalização e Reabertura de atendimento](./fim_atendimetno.md)
+* [Histórico do paciente](atendimento/historico.md)
+* [Finalização e Reabertura de atendimento](atendimento/reiniciar_sessao.md)
+* [Sair sem finalizar atendimento](atendimento/sair.md)
 
 
 <!-- *	[Call Center](agendamento/call_center.md)
